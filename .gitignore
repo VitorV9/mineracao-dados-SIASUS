@@ -1,0 +1,16 @@
+# Ignorar o arquivo de variáveis de ambiente real (Segurança de credenciais)
+.env
+.env.local
+
+# Ignorar as bibliotecas e dependências que o Bundler baixa localmente
+/.bundle/
+/vendor/bundle/
+
+# Ignorar arquivos temporários, caches e logs do sistema
+/log/*.log
+/tmp/
+
+# Ignorar configurações locais do editor e do Windows
+.vscode/
+.DS_Store
+Thumbs.db
