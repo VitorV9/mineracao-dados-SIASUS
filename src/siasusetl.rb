@@ -9,7 +9,7 @@ def limpar_dados_siasus(arquivos_brutos, caminho_saida)
     arquivos_brutos.each do |arquivo|
       puts "Lendo o arquivo: #{File.basename(arquivo)}..."
       
-      CSV.foreach(arquivo, headers: true, col_sep: separador, encoding: 'bom|utf-8') do |row|
+      CSV.foreach(arquivo, headers: true, col_sep: separador, encoding: 'bom|utf-8', liberal_parsing: true) do |row|
         idade_raw = row['PA_IDADE'] || row['pa_idade']
         proc_raw  = row['PA_PROC_ID'] || row['pa_proc_id']
         sexo      = row['PA_SEXO'] || row['pa_sexo']
