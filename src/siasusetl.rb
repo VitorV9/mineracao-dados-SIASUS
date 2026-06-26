@@ -1,4 +1,5 @@
 require 'csv'
+
 def limpar_dados_siasus(arquivos_brutos, caminho_saida)
   separador = ","
 
