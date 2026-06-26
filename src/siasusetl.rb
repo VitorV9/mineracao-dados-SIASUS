@@ -1,5 +1,3 @@
-require 'csv'
-
 def limpar_dados_siasus(arquivos_brutos, caminho_saida)
   File.open(caminho_saida, "w", encoding: 'utf-8') do |saida|
 
