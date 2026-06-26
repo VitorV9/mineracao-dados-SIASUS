@@ -14,3 +14,7 @@
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Ignorar arquivos de dados brutos e bases geradas
+*.csv
+base_idosos_weka.csv
