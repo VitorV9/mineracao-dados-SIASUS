@@ -1,4 +1,4 @@
-require_relative 'siasus_etl'
+require_relative 'siasusetl'
 
 dir_atual = __dir__
 arquivos_brutos = [
